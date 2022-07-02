@@ -46,3 +46,51 @@ html {
     border-bottom: 3px solid #000;
 }
 
+                    /* home section stylesheet */
+               
+.home-section {
+    color: #fff;
+    width: 100%;
+    height: 36rem;
+    background-image: url(./images/gory-planeta-minimalizm-zvezdy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.home-section .intro {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 60%;
+}
+.home-section .intro .intro-heading {
+    font-size: 4rem;
+}
+.home-section .intro .intro-para {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.home-section .secretary-info {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+}
+.home-section .secretary-info h2 {
+    margin-bottom: 1rem;
+}
+.home-section .secretary-info .btn {
+    width: 5rem; 
+    height: 2rem;
+    background: linear-gradient(to left, #E4DCCF,#576F72,#E4DCCF,#576F72);
+    transition: 0.8s ease all;
+    cursor: pointer;
+}
+.home-section .secretary-info .secretary-link a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+#home .secretary-info .btn:hover  {
+     width: 7rem;
+}
+                
